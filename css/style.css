@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+header{
+    background: #1284aa;
+    padding-top: 8px;
+    padding-bottom: 80px;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    padding-top: 10px;
+}
+
+.layout{
+    text-align: center;
+}
+.layout ul{
+    margin: 0px;
+    padding: 0px;
+}
+.layout ul li{
+    list-style: none;
+    float: left;
+}
+.layout ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 25px;
+    font-weight: 500;
+    display: block;
+    padding: 20px 18px;
+    transition-duration: 0.3s;
+}
+.layout ul li a img{width: 100px; height: 30px;}
+
+.layout ul li a:hover{
+    color: #76c0d9;
+}
+.box01{
+    width: 1510px;
+    height: 700px;
+}
+.leftbanner{width: 570px;
+    float: left;
+    height: 700px;
+}
+.leftbanner img{
+    width: 570px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.rightbanner{width: 940px;
+    float: right;
+    background: #2196F3;
+    height: 700px;}
+.login-area{
+	width: 260px;
+	/* background: #2196F3; */
+	margin-left: 2px;
+	padding-top: 16px;
+	padding-left: 0px;
+}
+.container02{
+    /* background: red; */
+    width: 534px;
+    height: 560px;
+    margin: 0px 0px 0px 190px;
+    margin-top: 80px;
+    margin-left: 198px;
+}
+.container02 h4{
+	margin: auto;
+    font-size: 21px;
+    color: white;
+    width: 250px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    font-weight: 400;
+}
+
+
+.container02 p{
+	margin: auto;
+    font-size: 13px;
+    color: white;
+    text-align: justify;
+    width: 250px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    padding-top: 2px;
+}
+
+.login-area{}
+.login-area form{width: 258px;padding-left: -1px;}
+.login-area form label{
+	font-size: 14px;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+}
+.login-area form input{
+	display: block;
+	padding: 7px;
+	width: 248px;
+	margin-bottom: 6px;
+	font-size: 12px;
+	padding: 12px 25px;
+}
+.login-area form input[type="submit"]{
+	/* display: block; */
+	/* width: auto; */
+	/* color: #fff; */
+	/* background: transparent; */
+}
+
+ .about-section{
+    padding-right: 200px;
+}
+ .about-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #444;
+}
+ .about-section p{
+    color: #444;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.blog-section{
+    padding-right: 150px;
+}
+.post{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+article{
+    box-shadow: 0 20px 60px #6b6bed57;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+article img{
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: -1px;
+}
+article h2{
+    margin: 10px 0;
+    color: #333232;
+    font-weight: 600;
+    font-size: 25px;
+    /* margin-top: 15px; */
+    padding-left: 8px;
+}
+article p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #3c3a3a;
+    padding-left: 8px;
+    padding-bottom: 10px;
+}
+
+.contact-section{
+    padding-right: 140px;
+}
+.contact{
+    width: 60%;
+    margin: auto;
+}
+.contact h1{
+    color: #0a88b2;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+form{}
+form label{
+	display: block;
+	font-size: 20px;
+	color: #2580a5;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+form input, textarea{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #3554e5b5;
+}
+
+.contact form input[type="submit"]{
+	background: #0287b4;
+	color: #ffffff;
+	width: auto;
+	padding: 15px 30px;
+	cursor: pointer;
+	transition:all 0.3s linear;
+}
+
+.contact form input[type="submit"]:hover{
+	background: transparent;
+    color: #0287b4;
+}
+
+form input, textarea{
+	outline-offset: 0;
+	outline: none;
+	border: 1px solid #0c2182b5
+}
+
+
+	
